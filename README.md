@@ -1,10 +1,10 @@
 # 目录
 
-- [Git](/git)
-  * [Git](/git.md)
+- Git
+  * [Git](git/git.md)
   * GitHub
-- [JS](/js)
-  * [Promise](/ES6-Promise.md)
+- JS
+  * [Promise](js/ES6-Promise.md)
 - Vue
 - React
 - Sea
