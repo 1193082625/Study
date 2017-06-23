@@ -1,7 +1,8 @@
 # 目录
 
-- [Git](/git.md)
-- GitHub
+- [Git](/git)
+  * [Git](/git.md)
+  * GitHub
 - [JS](/js)
   * [Promise](/ES6-Promise.md)
 - Vue
