@@ -2,7 +2,8 @@
 
 - [Git](/git.md)
 - GitHub
-- ECMAScript5 + ECMAScript6
+- [JS](/js)
+  * [Promise](/ES6-Promise.md)
 - Vue
 - React
 - Sea
