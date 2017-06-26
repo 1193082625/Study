@@ -45,12 +45,54 @@ mogoose.connect(‘mongodb://localhost:27018/test’,function(err){
 4、用Schema模式管理Mongoose数据，一个Schema对象代表数据库中的一个表，Schema对象中的每一个属性，代表数据库中的每一个字段。
 
 ```
+var mongoose = require('mongoose');
 //新建一个kittySchema表，其中包含name字段为字符串类型
 var kittySchema = new mongoose.Schema({
   name:String,//定义一个用户名字段，为字符串类型
 })
-//
+//添加行为
+kittySchema.method.sayHello = function(){
+  console.log("hello, i am a kitty");
+}
+```
 
+5、将模式编译成模型
+
+```
+var Kitten = mongoose.model('Kitten',kittySchema);
+```
+
+6、创建一条数据
+
+```
+var someone = new Kitten({
+  name:'Slience'
+});
+someone.sayHello(); // "hello, i am a kitty"
+```
+
+7、保存数据
+
+```
+someone.save(function(err,someone){
+  if(err) return console.error(err);
+  fluffy.sayHello();
+})
+```
+
+8、查询所有数据
+
+```
+Kitten.find(function(err,Kittens){
+  if(err) return console.error(err);
+  console.log(Kittens);
+})
+```
+
+9、查询name为Slience的数据
+
+```
+Kitten.find({ name:'Slience' }，callback);
 ```
 
 
