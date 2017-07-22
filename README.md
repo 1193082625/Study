@@ -13,7 +13,7 @@
 - Yii
 
 * Node
-* Mongoose
+* [Mongoose](mongoose.md)
 * Express
 * Swig    _Node的模板处理模块_ 
 * BackBone
