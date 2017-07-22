@@ -6,6 +6,7 @@
 - JS
   * [Promise](js/ES6-Promise.md)
 - Vue
+  - [vue](vue/vue.md)
 - React
 - Sea
 - ThinkPHP
