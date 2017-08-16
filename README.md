@@ -60,15 +60,15 @@
 
 ### [AngularJS判断checkbox/复选框是否选中并实时显示](http://www.cnblogs.com/CheeseZH/p/4517701.html)
 
-### [AngularJS去掉的URL里的#号](http://tool.lu/)
+### [AngularJS去掉的URL里的#号](http://blog.fens.me/angularjs-url/)
 
-### [$scope.$emit and .$broadcast AngularJS](http://chenpeng.info/html/2260)
+### [scope.emit and .broadcast AngularJS](http://chenpeng.info/html/2260)
 
 ### [Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ### [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 
-### [Swiper演示](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+### [Swiper演示](http://www.swiper.com.cn/demo/index.html)
 
 ### [基于vue-cli快速构建](http://www.jianshu.com/p/2769efeaa10a)
 
